@@ -1,2 +1,2 @@
-# OyeRoco
-Tienda de Mascotas - OyeRoco
+# RocoStore
+Tienda de Mascotas - RocoStore
