@@ -1,4 +1,4 @@
-import logo from './logo.gif';
+import logo from '../images/logo.gif';
 import './App.css';
 
 function App() {
@@ -13,5 +13,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
