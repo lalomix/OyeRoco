@@ -1,6 +1,6 @@
-import './Body.css';
+import './ItemListContainer.css';
 
-function Body() {
+function ItemListContainer() {
 	return (
 		<div className='container content'>
 			<p>Aqui irá el contenido del sitio</p>
@@ -8,4 +8,4 @@ function Body() {
 	)
   }
   
-  export default Body;
+  export default ItemListContainer;

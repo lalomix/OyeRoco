@@ -1,4 +1,4 @@
-npm intall bootstrap react-bootstrap
+npm install bootstrap react-bootstrap
 
 reemplazar 'bootstrap/dist/css/bootstrap.css'
 
@@ -7,3 +7,5 @@ https://bootswatch.com/5/minty/bootstrap.css
 https://bootswatch.com/minty/
 
 color: #12dbe3;
+
+ItemListContainer
