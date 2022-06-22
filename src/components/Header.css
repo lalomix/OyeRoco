@@ -1,6 +1,8 @@
-.color-font {
-    font-family: 'Gochi Hand';
-    
+
+.linkcustom {
+color: white !important;
+
 }
-
-
+.linkcustom:hover {
+	color: grey !important ;
+  }

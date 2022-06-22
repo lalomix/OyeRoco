@@ -8,4 +8,44 @@ https://bootswatch.com/minty/
 
 color: #12dbe3;
 
-ItemListContainer
+-------------------------------------------------------
+
+uso de modulo Navbar
+
+import { Navbar, NavLink, Nav } from 'react-bootstrap';
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+
+<Navbar bg='primary' sticky='top' expand='lg'  >
+			<div className='container'>
+			<Navbar.Brand>
+				<img src={logo} width='250px' alt='logo de roco store' />
+			</Navbar.Brand>
+			<NavbarToggle /> 
+			<NavbarCollapse>
+				<Nav className='navbar-nav ms-auto'>
+					<NavLink href='home'>Home</NavLink>
+					<NavLink href='perros'>Perros</NavLink>
+					<NavLink href='gatos'>Gatos</NavLink>
+					<NavLink href='otras-mascotas'>Otras Mascotas</NavLink>
+					<NavLink href='quienes-somos'>Quienes Somos</NavLink>
+					<NavLink href='contacto'>Hablemos!</NavLink>
+					<CartWidget />
+				</Nav>				
+			</NavbarCollapse>
+			</div>
+		</Navbar>
+		//////
+		<NavDropdown title='Productos'>
+			<NavDropdown.Item href='productos/comidas'>Comidas</NavDropdown.Item> 
+			<NavDropdown.Divider />
+		</NavDropdown>
+
+		-----------------------------------------------------------------------
+
+		instalacion de iconos
+		https://react-icons.github.io/react-icons/icons?name=fa
+
+		npm install react-icons 
+
+		import {FaCartPlus} from 'react-icons/fa'

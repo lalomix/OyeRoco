@@ -6,7 +6,6 @@ import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import CartWidget from './CartWidget';
 
-
 function Header() {
   return (
 	<div>
@@ -18,12 +17,12 @@ function Header() {
 			<NavbarToggle /> 
 			<NavbarCollapse>
 				<Nav className='navbar-nav ms-auto'>
-					<NavLink href='home'>Home</NavLink>
-					<NavLink href='perros'>Perros</NavLink>
-					<NavLink href='gatos'>Gatos</NavLink>
-					<NavLink href='otras-mascotas'>Otras Mascotas</NavLink>
-					<NavLink href='quienes-somos'>Quienes Somos</NavLink>
-					<NavLink href='contacto'>Hablemos!</NavLink>
+					<NavLink className='linkcustom' href='home'>Home</NavLink>
+					<NavLink className='linkcustom' href='perros'>Perros</NavLink>
+					<NavLink className='linkcustom' href='gatos'>Gatos</NavLink>
+					<NavLink className='linkcustom' href='otras-mascotas'>Otras Mascotas</NavLink>
+					<NavLink className='linkcustom' href='quienes-somos'>Quienes Somos</NavLink>
+					<NavLink className='linkcustom' href='contacto'>Hablemos!</NavLink>
 					<CartWidget />
 				</Nav>				
 			</NavbarCollapse>
