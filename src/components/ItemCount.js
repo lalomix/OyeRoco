@@ -1,10 +1,22 @@
 import './ItemCount.css'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {FaCartPlus} from 'react-icons/fa'
+import Swal from 'sweetalert2';
 
 function Contador (){
 	const [num, setNum] = useState(0);
 	const stock = 8;
+
+	useEffect(()=> {
+		if (num === stock){
+			Swal.fire({
+				title: 'Ups!!',
+				text: 'lamentablemente no tenemos más stock',
+				icon: 'error',
+				confirmButtonText: 'Volver'
+	  		})
+		}
+	},[num])
 
 	const sumar = () => {
 		if (num<stock){

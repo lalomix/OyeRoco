@@ -49,3 +49,9 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 		npm install react-icons 
 
 		import {FaCartPlus} from 'react-icons/fa'
+
+		---------------------------------------------------------------------
+
+		instalar sweet alert 2
+
+		npm install sweetalert2
