@@ -30,15 +30,13 @@ function Contador (){
 	}
 
 	return(
-	<>
+	< div className='d-flex justify-content-end'>
 		
-		<h1>{num}</h1>
-		<button onClick={restar} class="btn btn-primary btn-space">-</button>
-		<button onClick={sumar} class="btn btn-primary">+</button>
-		<button type="button" class="btn btn-primary btn-space"><FaCartPlus />  Agregar al Carro</button>
-       
-		
-	</>
+		<h2>{num}</h2>
+		<button onClick={restar} className="btn btn-primary btn-space">-</button>
+		<button onClick={sumar} className="btn btn-primary">+</button>
+		<button type="button" className="btn btn-primary btn-space"><FaCartPlus />  Agregar al Carro</button>
+       	</ div>
 	)
 }
 export default Contador;
