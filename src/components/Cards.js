@@ -1,13 +1,15 @@
-import { Card, Row, Col } from "react-bootstrap"
+import { Card, Row, Col, CardGroup } from "react-bootstrap"
 import ItemCount from './ItemCount'
 
 function Cards (props){
 
 return (
+  
 <Row className="container">
   <Col md="auto">
-    <Card>
-      <Card.Img variant="top" src={require(`../images/${props.img}`)} />  
+  <CardGroup>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={process.env.PUBLIC_URL + props.img} width="200px" />  
         <Card.Body>
           <Card.Title>{props.marca} {props.nombre}</Card.Title>
           <Card.Text>
@@ -16,6 +18,7 @@ return (
           <ItemCount />	
         </Card.Body>
     </Card>
+    </CardGroup>
   </Col>
 </Row>
 )

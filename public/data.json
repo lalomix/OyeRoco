@@ -8,7 +8,7 @@
 		"categoria": "Alimento para Perros",
 		"descripcion": "Duck & Pear es un alimento para perros elaborado con 50% pato Muscovy para nutrir a su perro de acuerdo a sus necesidades evolutivas. Contiene una sola proteína animal de fácil digestión. Criados en las granjas locales, nuestro pato Muscovy llega fresco, en forma PresaEntera™ - una rica proporción de carne, órganos y cartílago que nutren naturalmente a su perro.",
 
-		"img":"acana-2kg.jpg"
+		"img":"acana.jpg"
 	},
 	{
 		"id":2,
@@ -38,7 +38,7 @@
 		"precio": 60990,
 		"categoria": "Alimento para Gatos",
 		"descripcion": "Royal Canin Fit 32 es un alimento completo y balanceado recomendado para gatos de 1 a 10 años, con actividad moderada y/o acceso ocasional al exterior. Su fórmula responde perfectamente a las necesidades nutricionales de proteínas, ácidos grasos, fibras, vitaminas y minerales.",
-		"img":"rc-felinofit.jpg"
+		"img":"royalfit.jpg"
 	},
 	{
 		"id":5,
