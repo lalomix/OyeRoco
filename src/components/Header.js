@@ -17,12 +17,11 @@ function Header() {
 			<NavbarToggle /> 
 			<NavbarCollapse>
 				<Nav className='navbar-nav ms-auto'>
-					<NavLink className='linkcustom' href='home'>Home</NavLink>
-					<NavLink className='linkcustom' href='perros'>Perros</NavLink>
-					<NavLink className='linkcustom' href='gatos'>Gatos</NavLink>
-					<NavLink className='linkcustom' href='otras-mascotas'>Otras Mascotas</NavLink>
-					<NavLink className='linkcustom' href='quienes-somos'>Quienes Somos</NavLink>
-					<NavLink className='linkcustom' href='contacto'>Hablemos!</NavLink>
+					<NavLink className='linkcustom' to='/home'>Home</NavLink>
+					<NavLink className='linkcustom' to='/perros'>Perros</NavLink>
+					<NavLink className='linkcustom' to='/gatos'>Gatos</NavLink>
+					<NavLink className='linkcustom' to='/otras-mascotas'>Otras Mascotas</NavLink>
+					<NavLink className='linkcustom' to='/contacto'>Hablemos!</NavLink>
 					<CartWidget />
 				</Nav>				
 			</NavbarCollapse>

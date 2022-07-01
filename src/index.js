@@ -1,14 +1,25 @@
 import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import ItemListContainer from './components/ItemListContainer';
+import Home from './Pages/Home';
+import Perros from './Pages/Perros';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
+    <BrowserRouter>
+      <Header />
+    
     <ItemListContainer />
+    <Routes>
+      <Route path="/home" element={<Home />} ></Route>
+      <Route path="/perros" element={<Perros />} ></Route>
+    </Routes>
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
 
