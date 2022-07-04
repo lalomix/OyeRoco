@@ -1,26 +1,12 @@
 import React from 'react';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import App from './App';
 import ReactDOM from 'react-dom/client';
-import Header from './components/Header';
-import ItemListContainer from './components/ItemListContainer';
-import Home from './Pages/Home';
-import Perros from './Pages/Perros';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Header />
-    
-    <ItemListContainer />
-    <Routes>
-      <Route path="/home" element={<Home />} ></Route>
-      <Route path="/perros" element={<Perros />} ></Route>
-    </Routes>
-    </BrowserRouter>
-    
-  </React.StrictMode>
+    <React.StrictMode>
+        <App />  
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

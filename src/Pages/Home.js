@@ -1,5 +1,10 @@
-function Home(){
-	<h1>Este es la pagina Home</h1>
-}
+import ItemListContainer from '../components/ItemListContainer';
 
-export default Home;
+export default function Home(){
+	return (
+	<div>
+		<ItemListContainer />
+	</div>
+	)
+	
+}

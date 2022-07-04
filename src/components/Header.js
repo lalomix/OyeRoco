@@ -1,10 +1,11 @@
 import './Header.css';
 import logo from '../images/logohome.gif'
 import 'bootstrap/dist/css/bootstrap.css'
-import { Navbar, NavLink, Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavLink } from 'react-bootstrap';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import CartWidget from './CartWidget';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -17,16 +18,21 @@ function Header() {
 			<NavbarToggle /> 
 			<NavbarCollapse>
 				<Nav className='navbar-nav ms-auto'>
-					<NavLink className='linkcustom' to='/home'>Home</NavLink>
-					<NavLink className='linkcustom' to='/perros'>Perros</NavLink>
-					<NavLink className='linkcustom' to='/gatos'>Gatos</NavLink>
-					<NavLink className='linkcustom' to='/otras-mascotas'>Otras Mascotas</NavLink>
-					<NavLink className='linkcustom' to='/contacto'>Hablemos!</NavLink>
+					<NavLink className='linkcustom' as={Link} to='/home'>Home</NavLink>
+					<NavLink className='linkcustom' as={Link} to='/perros'>Perros</NavLink>
+					<NavLink className='linkcustom' as={Link} to='/gatos'>Gatos</NavLink>
+					<NavLink className='linkcustom' as={Link} to='/otras-mascotas'>Otras Mascotas</NavLink>
+					<NavLink className='linkcustom' as={Link} to='/contacto'>Hablemos!</NavLink>
 					<CartWidget />
 				</Nav>				
 			</NavbarCollapse>
 			</div>
-		</Navbar>
+		</Navbar>		
+			
+  		
+
+
+
 	</div>
   )
 }

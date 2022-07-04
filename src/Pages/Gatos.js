@@ -1,5 +1,6 @@
-function Gatos(){
-	<h1>Este es la pagina Gatos</h1>
+export default function Gatos() {
+  return (
+	<h1 className="d-flex justify-content-center container content">Este es la pagina Gatos</h1>
+  )
 }
 
-export default Gatos;
