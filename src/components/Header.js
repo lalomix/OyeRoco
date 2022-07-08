@@ -1,4 +1,4 @@
-import './Header.css';
+import '../Styles/Header.css';
 import logo from '../images/logohome.gif'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Navbar, Nav, NavLink } from 'react-bootstrap';
@@ -27,12 +27,7 @@ function Header() {
 				</Nav>				
 			</NavbarCollapse>
 			</div>
-		</Navbar>		
-			
-  		
-
-
-
+		</Navbar>	
 	</div>
   )
 }

@@ -1,4 +1,4 @@
-import './ItemCount.css'
+import '../Styles/ItemCount.css'
 import { useEffect, useState } from "react";
 import {FaCartPlus} from 'react-icons/fa'
 import Swal from 'sweetalert2';

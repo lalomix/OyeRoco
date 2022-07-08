@@ -15,13 +15,7 @@ function ItemList() {
 
 	return(
 		<section className="container">
-			<div>
-				<h1 className="d-flex justify-content-center">Productos en Oferta</h1>
-			</div>
-			<div className="container">
-			{ productos && productos.map(i => <Item img={i.img} marca={i.marca} nombre={i.nombre} descripcion={i.descripcion}  descripcion2={i.descripcion2}/> )}	
-				
-			</div>
+			{ productos && productos.map(i => <Item img={i.img} id={i.id} marca={i.marca} nombre={i.nombre} descripcion={i.descripcion}  descripcion2={i.descripcion2} precio={i.precio} /> )}	
 		</section>
 	);
 

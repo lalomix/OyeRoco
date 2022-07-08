@@ -1,10 +1,8 @@
 import ItemList from './ItemList';
-import './ItemListContainer.css'
-
 
 function ItemListContainer() {
 	return (
-		<div className='container content'>
+		<div className='container'>
 			<ItemList />
 			
 		</div>
