@@ -7,7 +7,7 @@ import OtrasMascotas from './pages/OtrasMascotas';
 import Contacto from './pages/Contacto';
 import PageNotFound from './pages/PageNotFound'
 import { BrowserRouter} from "react-router-dom";
-import Detail from './components/Detail';
+import ItemDetailContainer from './components/ItemDetailContainer';
 
 function App() {
 	return (
@@ -16,12 +16,11 @@ function App() {
 				<Header />
 					<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/home" element={<Home />} />
 					<Route path="/perros" element={<Perros />} />
 					<Route path="/gatos" element={<Gatos />} />
 					<Route path="/otras-mascotas" element={<OtrasMascotas />} />
 					<Route path="/contacto" element={<Contacto />} />
-					<Route path="/productos/:prodId" element={<Detail />} />
+					<Route path="/productos/:prodId" element={<ItemDetailContainer />} />
 					<Route path="*" element={<PageNotFound />} />						
 				</Routes>
 			</BrowserRouter>	

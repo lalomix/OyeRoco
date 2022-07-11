@@ -18,7 +18,7 @@ function Header() {
 			<NavbarToggle /> 
 			<NavbarCollapse>
 				<Nav className='navbar-nav ms-auto'>
-					<NavLink className='linkcustom' as={Link} to='/home'>Home</NavLink>
+					<NavLink className='linkcustom' as={Link} to='/'>Home</NavLink>
 					<NavLink className='linkcustom' as={Link} to='/perros'>Perros</NavLink>
 					<NavLink className='linkcustom' as={Link} to='/gatos'>Gatos</NavLink>
 					<NavLink className='linkcustom' as={Link} to='/otras-mascotas'>Otras Mascotas</NavLink>
