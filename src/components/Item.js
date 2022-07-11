@@ -1,4 +1,4 @@
-import { Card, Row, Col, CardGroup } from "react-bootstrap"
+import { Card, Row, Col } from "react-bootstrap"
 import ItemCount from './ItemCount'
 import '../Styles/Item.css'
 import { Link } from 'react-router-dom';

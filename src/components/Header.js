@@ -12,7 +12,7 @@ function Header() {
 	<div>
 		<Navbar bg='primary' sticky='top' expand='lg'  >
 			<div className='container'>
-			<Navbar.Brand>
+			<Navbar.Brand as={Link} to='/'>
 				<img src={logo} width='250px' alt='logo de roco store' />
 			</Navbar.Brand>
 			<NavbarToggle /> 

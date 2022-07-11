@@ -7,6 +7,7 @@ import OtrasMascotas from './pages/OtrasMascotas';
 import Contacto from './pages/Contacto';
 import PageNotFound from './pages/PageNotFound'
 import { BrowserRouter} from "react-router-dom";
+import Detail from './components/Detail';
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 					<Route path="/gatos" element={<Gatos />} />
 					<Route path="/otras-mascotas" element={<OtrasMascotas />} />
 					<Route path="/contacto" element={<Contacto />} />
+					<Route path="/productos/:prodId" element={<Detail />} />
 					<Route path="*" element={<PageNotFound />} />						
 				</Routes>
 			</BrowserRouter>	

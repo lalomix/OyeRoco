@@ -1,12 +1,10 @@
 import ItemList from './ItemList';
 
-function ItemListContainer() {
+export default function ItemListContainer() {
 	return (
 		<div className='container'>
-			<ItemList />
-			
+			<ItemList />	
 		</div>
 	)
   }
   
-  export default ItemListContainer;

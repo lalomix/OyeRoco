@@ -1,5 +1,9 @@
+import Detail from "./Detail"
+
 export default function ItemDetailContainer() {
   return (
-	<div>ItemDetailContainer</div>
+	<div className="container">
+    <Detail />
+  </div>
   )
 }
