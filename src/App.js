@@ -1,13 +1,10 @@
 import Header from './components/Header';
 import {Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
 import Perros from './pages/Perros';
-import Gatos from './pages/Gatos';
-import OtrasMascotas from './pages/OtrasMascotas';
-import Contacto from './pages/Contacto';
 import PageNotFound from './pages/PageNotFound'
 import { BrowserRouter} from "react-router-dom";
 import ItemDetailContainer from './components/ItemDetailContainer';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
 	return (
@@ -15,11 +12,8 @@ function App() {
 			<BrowserRouter>
 				<Header />
 					<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/" element={<ItemListContainer greeting={' Productos en Oferta '}/>} />
 					<Route path="/perros" element={<Perros />} />
-					<Route path="/gatos" element={<Gatos />} />
-					<Route path="/otras-mascotas" element={<OtrasMascotas />} />
-					<Route path="/contacto" element={<Contacto />} />
 					<Route path="/productos/:prodId" element={<ItemDetailContainer />} />
 					<Route path="*" element={<PageNotFound />} />						
 				</Routes>

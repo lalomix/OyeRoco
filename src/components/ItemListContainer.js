@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import Item from './Item'
+import ItemList from "./ItemList";
 
-export default function ItemListContainer() {
+
+export const ItemListContainer = ({ greeting }) => {
 
 	const[productos, setProductos] = useState([])
 
@@ -14,8 +15,12 @@ export default function ItemListContainer() {
 
 	return(
 		<section className="container">
-			{ productos && productos.map(i => <Item img={i.img} id={i.id} marca={i.marca} nombre={i.nombre} descripcion={i.descripcion}  descripcion2={i.descripcion2} precio={i.precio} /> )}	
+			
+			<ItemList ListadoProductos={productos} />
+			
 		</section>
 	);
   }
+
+  export default ItemListContainer
   
