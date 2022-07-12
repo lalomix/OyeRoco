@@ -1,6 +1,6 @@
 [
 	{
-		"id":1,
+		"id": "1",
 		"nombre": "Duck & Pear 2 Kg",
 		"marca": "Acana", 
 		"stock": 10,
@@ -12,7 +12,7 @@
 		"oferta": 1
 	},
 	{
-		"id":2,
+		"id":"2",
 		"nombre": "Adulto Salmon & Potato 12 Kg",
 		"marca": "Brit Care", 
 		"stock": 7,
@@ -24,7 +24,7 @@
 		"oferta": 1
 	},
 	{
-		"id":3,
+		"id": "3",
 		"nombre": "Adulto Small Breed Lamb & Rice 7 Kg",
 		"marca": "Brit Care",
 		"stock": 10,
@@ -36,7 +36,7 @@
 		"oferta": 1
 	},
 	{
-		"id":4,
+		"id": "4",
 		"nombre": "Felino Fit32 7.5 Kg",
 		"marca": "Royal Canin",
 		"stock": 12,
@@ -48,7 +48,7 @@
 		"oferta": 1
 	},
 	{
-		"id":5,
+		"id": "5",
 		"nombre": "Perfect Weight Felino 1.36 Kg",
 		"marca": "Hills",
 		"stock": 18,
@@ -57,6 +57,18 @@
 		"descripcion": "Alimento Premium para Gatos",
 		"descripcion2": "Royal Canin Perfect Weight Felino es un alimento para gatos desarrollado para proporcionar proteínas óptimas, energía y otros nutrientes recomendado para gatos adultos castrados, poco activos o con sobrepeso. Crea una sensación de saciedad lo que reduce el hambre y disminuye el consumo de alimento. ",
 		"img":"hills-perfectweightfelino.jpg",
+		"oferta": 1
+	},
+	{
+		"id": "6",
+		"nombre": "Brit Care Animals Hámster 300gr",
+		"marca": "Brit Care",
+		"stock": 15,
+		"precio": "5.990",
+		"categoria": "otras-mascotas",
+		"descripcion": "Alimento Premium para Hamster",
+		"descripcion2": "Brit Care Animals Hámster es un alimento completo Súper Premium para Hámsters. Comprende una alimentación segura, completa en vitaminas y nutrientes , no contiene azúcar agregada, siendo un alimento completo súper premium extruido. Así mismo, contiene linaza, una fuente de ácidos grasos insaturados omega-3 para un cabello brillante.",
+		"img":"brit-hamster.jpg",
 		"oferta": 1
 	}
 
