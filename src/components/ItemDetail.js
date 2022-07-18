@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Row, Col } from "react-bootstrap"
 import ItemCount from './ItemCount'
+import { CartContext } from './CartContext'
 
 export default function Item ({ id, img, marca, nombre, descripcion2, precio }){
 	return (

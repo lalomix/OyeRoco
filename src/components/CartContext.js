@@ -4,12 +4,7 @@ export const CartContext = createContext({})
 
 const {Provider} = CartContext
 
-	const ejemploCarrito = []
-
-
-
-
-
+	const Carrito = []
 
 export const CartProvider = ({ defaulValue = [], children }) => {
 	const [cart, setCart] = useState(defaulValue);
@@ -20,13 +15,18 @@ export const CartProvider = ({ defaulValue = [], children }) => {
 	const addToCart = (item, cantidad) => {
 		setCart([...cart,{item: item, cantidad: cantidad}])
 	}
-
-
-
+	const isInCart = () => {
+		
+	}
+	const removeItem = () => {
+		
+	}
 
 	const context = {
 		clearCart,
-		addToCart
+		addToCart,
+		isInCart,
+		removeItem
 	}
 
   return (

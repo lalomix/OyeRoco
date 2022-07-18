@@ -29,13 +29,24 @@ function Contador (){
 		}
 	}
 
+	const agregar = () => {
+		Swal.fire({
+			title: 'Producto agregado correctamente',
+			icon: 'success',
+			confirmButtonText: 'Volver'
+		  })
+		{
+		
+		}
+	}
+
 	return(
 	< div className='d-flex justify-content-end'>
 		
 		<h2>{num}</h2>
 		<button onClick={restar} className="btn btn-primary btn-space">-</button>
 		<button onClick={sumar} className="btn btn-primary">+</button>
-		<button type="button" className="btn btn-primary btn-space"><FaCartPlus />  Agregar al Carro</button>
+		<button onClick={agregar} className="btn btn-primary btn-space"><FaCartPlus />  Agregar al Carro</button>
        	</ div>
 	)
 }
